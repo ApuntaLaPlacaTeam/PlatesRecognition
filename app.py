@@ -18,7 +18,7 @@ configure_uploads(app, photos)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>IMAGE RECOGNITION</h1>"
+    return render_template("index.html")
 
 
 @app.route('/upload', methods=['GET', 'POST'])
