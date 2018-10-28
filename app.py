@@ -8,7 +8,7 @@ UPLOAD_FOLDER = 'static/img'
 from image_recognition import DetectChars, DetectPlates
 
 app = Flask(__name__)
-app.config["DEBUG"] = Falsegit
+app.config["DEBUG"] = False
 app.config['UPLOADED_FILES_DEST'] = 'static/img'
 app.config['UPLOADS_DEFAULT_DEST'] = 'static/img'
 
