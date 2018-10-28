@@ -1,2 +1,5 @@
+flask
 numpy
 opencv-python
+Flask-Uploads
+gunicorn
